@@ -9,7 +9,7 @@ if [ ! -d /Volumes/mountpoint3 ]
 		#chmod 777 /Volumes/mountpoint3
 		echo made /Volumes/mountpoint3 directory
 	else
-		echo /Volumes/mounpoint1 directory was already there
+		echo /Volumes/mounpoint3 directory was already there
 fi
  
 if mount | grep /Volumes/mountpoint3 > /dev/null; then
